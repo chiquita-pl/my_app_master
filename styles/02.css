@@ -1,0 +1,14 @@
+html { background: #efefdc; }
+
+body {
+    width: 660px;
+    margin: 40px auto;
+    background: #def;
+    border: 2px solid #779;
+    /* Cretes two shadow sffects: oute and inner */
+    -webkit-box-shadow: 0 1px 6px #88a, inset 0 -1px 10px white;
+    -moz-box-shadow: 0 1px 6px #88a, inset 0 -1px 10px white;
+    -o-box-shadow:  0 1px 6px #88a, inset 0 -1px 10px white;
+    -ms-box-shadow:  0 1px 6px #88a, inset 0 -1px 10px white;
+    box-shadow:  0 1px 6px #88a, inset 0 -1px 10px white;
+}
